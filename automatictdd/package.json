@@ -1,0 +1,32 @@
+{
+  "name": "automatictdd",
+  "version": "1.0.0",
+  "description": "Automatic TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/suissa/AutomaticTDD.git"
+  },
+  "keywords": [
+    "tdd",
+    "node",
+    "testes",
+    "automatic",
+    "test",
+    "automático",
+    "webschool",
+    "suissa"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/suissa/AutomaticTDD/issues"
+  },
+  "homepage": "https://github.com/suissa/AutomaticTDD#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
