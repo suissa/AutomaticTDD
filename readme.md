@@ -2,7 +2,11 @@
 
 ![](https://imgflip.com/s/meme/Jackie-Chan-WTF.jpg)
 
+Fazer TDD para coisas simples é **muitooooo chato**, IMHO, por isso sempre tento automatiar o máximo possível.
+
 ## O Problema
+
+
 
 ## A Solução
 
