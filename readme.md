@@ -6,6 +6,35 @@ Fazer TDD para coisas simples é **muitooooo chato**, IMHO, por isso sempre tent
 
 ## O Problema
 
+Testar funções de validação é algo muito simples que não deveria despender muito tempo do programador.
+
+**Para qualquer teste de validação atômica sempre teremos apenas 2 casos: **
+
+- true
+- false
+
+Então por que não podemos automatizar a execução desses testes apenas passando:
+
+- valores a serem testados
+- função/módulo atômico de validação
+- tipo do teste: true ou false
+
+Por exemplo assim:
+
+```js
+const describes = [
+  { type: true
+  , message: 'é String'
+  , values: ['Suissa', '1', '', ' ']
+  }
+, 
+  { type: false
+  , message: 'não é String'
+  , values: [null, undefined, 1, true, {}, ()=>{}]
+  }
+];
+require('./testModule')('isString', describes);
+```
 
 
 ## A Solução
